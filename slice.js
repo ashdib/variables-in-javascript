@@ -29,3 +29,9 @@ alert(
 var getTextExceeds = inputText.slice(140, getLengthText);
 
 alert("This is the text that exceeds 140 characters" + " : " + getTextExceeds);
+
+// slice the text for 140 characters only
+
+var getTextUnder40 = inputText.slice(0,140);
+
+alert(getTextUnder40);
